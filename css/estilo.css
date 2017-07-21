@@ -1,0 +1,19 @@
+h1{
+	font-size: 60px;
+}
+
+#footer {
+	background-color: #ede8e8;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.branco{
+	color: gray;
+}
+
+body{
+	background-color: #F1EEEF;
+}

@@ -1,0 +1,61 @@
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="wifth=device-width, initial-scale=1">
+  <title>IMedicine</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <meta charset="utf-8">
+</head>
+<body >
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">IMedicine</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li onclick="upload()"><a href="upload.html">Upload</a></li>
+          <li onclick="exportar()"><a href="exportar.html">Exportar</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Out</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="container" id="Exportar">
+    <center><h1>Exportar XML</h1></center>
+
+    <div class="col-md-12" style="margin-top: 50px;margin-bottom: 50px;">
+       <h2 class="text-center">Selecione uma opção para exportar o arquivo XML com a relação de rémedios listados até os ultimos 30 dias</h2> 
+    </div>
+
+    <div class="col-md-3" style="margin-top: 50px;">
+      <center><button class="btn btn-danger btn-lg">15 DIAS</button></center>
+    </div>
+
+    <div class="col-md-3" style="margin-top: 50px;">
+      <center><button class="btn btn-danger btn-lg">20 DIAS</button></center>
+    </div>
+
+    <div class="col-md-3" style="margin-top: 50px;">
+      <center><button class="btn btn-danger btn-lg">25 DIAS</button></center>
+    </div>
+
+    <div class="col-md-3" style="margin-top: 50px;margin-bottom: 100px;">
+     <center><button class="btn btn-danger btn-lg">30 DIAS</button></center>
+    </div>
+  </section>
+  <section id="footer" >
+      <center><h3 class="branco">© All rights reserved by Yggdrasil development</h3></center>
+  </section>
+</body>
+</html>
